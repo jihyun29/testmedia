@@ -13,7 +13,7 @@ const App = () => {
   let producer;
   let consumer;
   // const websocketURL = "https://simsimhae.store";
-  const websocketURL = "https://3.39.21.142";
+  const websocketURL = "https://3.39.21.142:3000";
   let params = {
     // mediasoup params
     encodings: [
