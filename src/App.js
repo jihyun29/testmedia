@@ -297,6 +297,7 @@ const App = () => {
         console.log("remoteVideoRef", remoteVideoRef);
 
         remoteVideoRef.current.srcObject = new MediaStream([track]);
+        console.log("?????리모트",remoteVideoRef)
 
         // the server consumer started with media paused
         // so we need to inform the server to resume
